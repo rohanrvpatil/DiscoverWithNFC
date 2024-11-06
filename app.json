@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "myapp",
-    "slug": "myapp",
+    "name": "DiscoverWithNFC",
+    "slug": "discoverwithnfc",
+    "scheme": "discoverwithnfc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.straltoglobal.DiscoverWithNFC"
     },
     "web": {
       "favicon": "./assets/favicon.png"
