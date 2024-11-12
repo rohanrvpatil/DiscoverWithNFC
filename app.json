@@ -7,13 +7,15 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "plugins": ["react-native-nfc-manager"],
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.straltoglobal.DiscoverWithNFC"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,6 +26,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1532e1f7-73a7-4ca5-9b72-c22e6ba8c313"
+      }
+    },
+    "owner": "rohanrvpatil"
   }
 }
